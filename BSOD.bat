@@ -1,5 +1,23 @@
 @echo off
-echo ^<html^> >BSOD.hta
+
+REM By: Aidan Biggs
+REM AKA AT Vloggers
+REM
+REM Please do not claim this as your own.
+REM
+REM If you remove this it means you break the Code of Use found here: 
+REM https://at-vloggers.weebly.com/code-of-use.html
+
+echo ^<!-- >BSOD.hta
+echo By: Aidan Biggs >>BSOD.hta
+echo AKA AT Vloggers >>BSOD.hta
+echo. >>BSOD.hta
+echo Please do not claim this as your own >>BSOD.hta
+echo. >>BSOD.hta
+echo If you remove this it means you break the Code of Use found here: >>BSOD.hta
+echo https://at-vloggers.weebly.com/code-of-use.html >>BSOD.hta
+echo --^> >>BSOD.hta
+echo ^<html^> >>BSOD.hta
 echo ^<title^>Test App^</title^> >>BSOD.hta
 echo ^<hta:application >>BSOD.hta
 echo maximizebutton="no" >>BSOD.hta
